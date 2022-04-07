@@ -1,0 +1,47 @@
+body {
+
+    background-image: url('background-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+h1{
+  position:relative;
+  text-align: center;
+  top: -190px; 
+  right: 25%; ;
+}
+h2{
+    position:relative;
+    text-align: center;
+    top: -190px; 
+    right: 25%; ;
+  }
+  p{
+    position:relative;
+    text-align: center;
+    top: -190px; 
+    left: 7%; ;
+  }
+  
+  table, th, td {
+      position: relative;
+      margin-top: -150px;
+    border: 1px solid black;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+  
